@@ -57,6 +57,12 @@
         }
     };
 
+    PenJs.prototype.clear = function() {
+        this.actions = [];
+        this.activeAction = {};
+        this.redraw();
+    };
+
     // Private Methods
     /**
      * Starts the plugin
