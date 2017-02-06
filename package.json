@@ -2,7 +2,7 @@
   "name": "pen-js",
   "version": "1.0.0",
   "description": "Lightweight js drawing board",
-  "main": "index.js",
+  "main": "./dist/pen-js.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
