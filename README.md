@@ -15,9 +15,14 @@ After importing PenJs you just have to initialize the plugin:
 
 ###Public Methods
 
-I will be adding functionalities to this table as the library evolve, for now we have this :)
-
-|Function name|Parameters||
-|---|
-|.toDataURL(outputType)|<code>outputType</code> optional, can be 'jpg' or 'png', default is 'png'|Will return a base64 representation of the drawing|
-|.redraw()|none|Will repaint the canvas|
+I will be adding functionalities to this as the library evolve, for now we have this :)
+<br>
+<code>.toDataURL(outputType)</code>
+<b>outputType</b> optional, can be 'jpg' or 'png', default is 'png'.
+Will return a base64 representation of the drawing.
+<br>
+<code>.redraw()</code>
+Will repaint the canvas.
+<br>
+<code>.clear()</code>
+Will clear the canvas.
